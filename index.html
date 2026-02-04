@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine 💖</title>
+  <link rel="stylesheet" href="./public/css/style.css" />
+</head>
+<body>
+
+  <!-- 🎵 Music Button -->
+  <button id="music-toggle">🎵 Play Music</button>
+
+  <audio id="bgMusic"></audio>
+  <audio id="heartSound" src="./public/sounds/heart.mp3"></audio>
+
+  <div class="container">
+    <div class="banner-gif">
+      <img id="banner" src="./public/images/mid.gif" />
+    </div>
+
+    <!-- ❤️ Dynamic Question Heading -->
+    <h1
+      id="question-heading"
+      data-questions='[
+        "Will you be my Valentine, Ayushi? 💘",
+        "Will you be a part of my collection, Ayushi? 🫶",
+        "Can I keep you close to my heart forever? ❤️",
+        "Would you walk this beautiful journey with me? 🌸",
+        "May I call you mine, even in my prayers? 🥹",
+        "Can I be the reason behind your smiles? 😊",
+        "Will you let me love you, gently and honestly? 💞"
+      ]'
+    >
+      Will you be my Valentine, <span>Ayushi</span>? 💘
+    </h1>
+
+    <div class="buttons">
+      <button id="yes-button">Yes 💕</button>
+      <button id="no-button">No 🙈</button>
+    </div>
+
+    <div class="message">
+      <h2 id="success-message"></h2>
+      <img id="message-image" />
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="./public/js/script.js"></script>
+</body>
+</html>

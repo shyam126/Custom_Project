@@ -11,6 +11,7 @@ const bgMusic = document.getElementById("bgMusic");
 
 const questionHeading = document.getElementById("question-heading");
 
+const herName1 = "Buggi";
 const herName = "Ayushi";
 
 /* 📝 GOOGLE FORM */
@@ -44,6 +45,7 @@ const noFlow = [
   { text: `${herName}, are you sure?`, img: "./public/images/no1_sad.gif" },
   { text: "That made my heart sink a little 💔", img: "./public/images/no2_cry.gif" },
   { text: "I promise I’d always treat you gently 💞", img: "./public/images/no3_lonely.gif" },
+  { text: `${herName1}, Think again pls 💔`, img: "./public/images/no1_sad.gif" },
   { text: "I’m still here… still hoping 🌸", img: "./public/images/no4_hope.gif" },
   { text: "Even now, my feelings are kind and real ❤️", img: "./public/images/no5_smile.gif" },
   { text: "Okay… let’s start again from the heart ❤️", img: "./public/images/no5_smile.gif" }

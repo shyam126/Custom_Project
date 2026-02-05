@@ -71,12 +71,12 @@ let isPlaying = false;
 
 /* ❤️ YES message sequence */
 const loveSequence = [
-  { text: "Yayyy 💖", img: "./public/images/love3.PNG" },
-  { text: `${herName}, my heart feels so full right now 💞`, img: "./public/images/love3.PNG" },
-  { text: "Every moment with you feels magical ✨", img: "./public/images/love3.PNG" },
-  { text: "I promise to listen, care, and stand by you always 🤍", img: "./public/images/love3.PNG" },
-  { text: "I promise, I'll always be there for you in your good and bad times ✨", img: "./public/images/meyou1.PNG" },
-  { text: "I promise to take care of your heart ❤️", img: "./public/images/meyou1.PNG" }
+  { text: "Yayyy 💖", img: "./public/images/love3.png" },
+  { text: `${herName}, my heart feels so full right now 💞`, img: "./public/images/love3.png" },
+  { text: "Every moment with you feels magical ✨", img: "./public/images/love3.png" },
+  { text: "I promise to listen, care, and stand by you always 🤍", img: "./public/images/love3.png" },
+  { text: "I promise, I'll always be there for you in your good and bad times ✨", img: "./public/images/meyou1.png" },
+  { text: "I promise to take care of your heart ❤️", img: "./public/images/meyou1.png" }
 ];
 let msgIndex = 0;
 
